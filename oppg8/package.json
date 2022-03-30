@@ -1,0 +1,41 @@
+{
+  "name": "oppg8",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Benedij <benedictejahr@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.29.1",
+    "@sanity/core": "^0.139.2",
+    "@sanity/default-layout": "^2.29.1",
+    "@sanity/default-login": "^2.29.1",
+    "@sanity/desk-tool": "^2.29.1",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.29.1",
+    "eslint": "^8.6.0",
+    "install": "^0.13.0",
+    "npm": "^8.5.5",
+    "prop-types": "^15.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "styled-components": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariuswallin/UIN_2022"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.7.0"
+  }
+}
